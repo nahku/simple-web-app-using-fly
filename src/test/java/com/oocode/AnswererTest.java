@@ -12,4 +12,11 @@ public class AnswererTest {
 
         assertThat(contents, equalTo("Your Name"));
     }
+
+    @Test
+    public void canAnswerMyAge() {
+        var contents = new Answerer().answerFor("What is your age?");
+
+        assertThat(contents, equalTo("42"));
+    }
 }
