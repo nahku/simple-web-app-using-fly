@@ -13,9 +13,9 @@ public class AnsweringServerTest {
 
     @Test
     public void canAnswerMyName() throws Exception {
-        var contents = new SimpleHttpClient().readUrl("http://127.0.0.1:9123?q=What+is+your+name%3F");
+        var contents = new SimpleHttpClient().readUrl("http://127.0.0.1:9123?q=What+is+your+Name%3F");
 
-        assertThat(contents, equalTo("Your Name"));
+        assertThat(contents, equalTo("Hello World"));
     }
 
     @Test
