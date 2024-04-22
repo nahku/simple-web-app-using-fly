@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for simple-web-app-using-fly-ns on 2024-04-22T15:19:36+01:00
+# fly.toml app configuration file generated for simple-web-app-using-fly-ns-hidden-glitter-3406 on 2024-04-22T15:20:55+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'simple-web-app-using-fly-ns'
+app = 'simple-web-app-using-fly-ns-hidden-glitter-3406'
 primary_region = 'lhr'
 
 [build]
