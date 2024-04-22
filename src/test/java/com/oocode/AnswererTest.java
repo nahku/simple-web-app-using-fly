@@ -8,14 +8,14 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class AnswererTest {
     @Test
     public void canAnswerMyName() {
-        var contents = new Answerer().answerFor("What is your name?");
+        var contents = new Answerer().answerFor("What is your Name?");
 
         assertThat(contents, equalTo("Hello World"));
     }
 
     @Test
     public void canAnswerMyAge() {
-        var contents = new Answerer().answerFor("What is your age?");
+        var contents = new Answerer().answerFor("What is your Age?");
 
         assertThat(contents, equalTo("42"));
     }
